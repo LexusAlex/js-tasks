@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+    nodejs-cli-debian:
+        build:
+            context: docker/nodejs-cli-debian-bullseye
+        volumes:
+            - ./:/js-tasks

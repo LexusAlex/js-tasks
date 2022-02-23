@@ -1,0 +1,15 @@
+{
+  "name": "js-tasks",
+  "version": "1.0.0",
+  "description": "JS Tasks",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest --bail"
+  },
+  "author": "Alexsey Shmelev",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
