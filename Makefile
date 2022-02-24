@@ -12,3 +12,7 @@ install-is-null:
 	docker-compose run --rm -u 1000:1000 nodejs-cli-debian npm install --save-dev jest
 install-deps:
 	docker-compose run --rm -u 1000:1000 nodejs-cli-debian npm ci
+test:
+	docker-compose run --rm -u 1000:1000 nodejs-cli-debian npm test
+test-coverage:
+	docker-compose run --rm -u 1000:1000 nodejs-cli-debian npm test -- --coverage --coverageProvider=v8
